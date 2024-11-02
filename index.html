@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Senlin home page</title>
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <section id="introduct2myself">
-    <h1>About me</h1>
-    <p>Welcome to the my page.</p>
-    <p>
-        Hello, welcome to my homepage. I am currently studying front-end development at bcit. I like fitness, history and writing code.
-    </p>
-    
-    </section>
+    <header>
+        <div class="site-header-width">
+            <a href="#" class="site-name">Senlin</a>
+            <nav class="site-navigation" id="site-navigation">
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <section id="projects">
-        <section id = "project">
-            <h2>Discord chatbot</h2>
-            <p>I wrote a running bot in python and it is currently on my server. I can record and forward messages. Automation helps me with speech review.</p>
-            <a href="#"> go</a>
+    <main>
+        <section id="introduct2myself">
+            <h1>About me</h1>
+            <p>Welcome to the my page.</p>
+            <p>
+                I am currently studying front-end development at bcit. I like fitness, history and writing code.
+            </p>
         </section>
-        <section id = "project">
-            <h2>Web base Monopoly real-time transfer system</h2>
-            <p>This is the most complicated thing I have ever written. React is the front-end framework and Django is the back-end framework. The front-end needs to change in real time according to the back-end API response by WebSocket, and the front-end also needs to communicate with the back-end through the API. I have basically completed these two parts. But the response speed is very slow, and there are still some areas that need to be improved on the front-end. I have only tested it on LAN. I will test it on WAN when I have a server.</p>
-            <a href="https://github.com/Monopoly233/Monopoly-Real-time-Accounting-System"> go</a>
+
+
+        <section id="projects">
+            <div class = "project">
+                <h2>Discord chatbot</h2>
+                <p>I wrote a running bot in python and it is currently on my server. I can record and forward messages. Automation helps me with speech review.</p>
+                <a href="#"> go</a>
+            </div>
+
+            <div class = "project">
+                <h2>Web base Monopoly real-time transfer system</h2>
+                <p>This is the most complicated thing I have ever written. React is the front-end framework and Django is the back-end framework. The front-end needs to change in real time according to the back-end API response by WebSocket, and the front-end also needs to communicate with the back-end through the API. I have basically completed these two parts. But the response speed is very slow, and there are still some areas that need to be improved on the front-end. I have only tested it on LAN. I will test it on WAN when I have a server.</p>
+                <a href="https://github.com/Monopoly233/Monopoly-Real-time-Accounting-System"> go</a>
+            </div>
+
+            <div class = "project">
+                <h2>Database</h2>
+                <p>placeholder</p>
+                <a href="#"> go</a>
+            </div>
+
+            <div class="project">
+                <h2>Shopify Store</h2>
+                <p>placeholder</p>
+                <a href="#"> go</a>
+            </div>
+            <div class="project">
+                <h2>Personnal home page</h2>
+                <p>placeholder</p>
+                <a href="https://github.com/Monopoly233/landingpage"> go</a>
+            </div>
+
         </section>
-        <section id = "project">
-            <h2>Database</h2>
-            <p>placeholder</p>
-            <a href="#"> go</a>
-        </section>
-        <section id="project">
-            <h2>Shopify Store</h2>
-            <p>placeholder</p>
-        </section>
-    </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; Senlin LIn.</p>
+    </footer>
 </body>
 
 </html>
